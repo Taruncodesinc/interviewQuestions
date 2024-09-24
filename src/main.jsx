@@ -4,10 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './index.css';
 import Navbar from './Components/navbar';
-import Homepage from './pages/homePage';
-
-
-import CsvTable from './pages/questionsPage';
+import Homepage from './pages/HomePage.jsx';
+import CsvTable from './pages/questionsPage.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
